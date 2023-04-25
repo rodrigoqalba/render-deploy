@@ -1,24 +1,11 @@
-# README
+# Render Deploy Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the deploy following the example in https://render.com/docs/deploy-rails
 
-Things you may want to cover:
+This is using Rails 7, so to have bootstrap work, I needed to create the app with the following flags
 
-* Ruby version
+``` 
+rails new mysite --database=postgresql -j esbuild --css bootstrap 
+```
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
